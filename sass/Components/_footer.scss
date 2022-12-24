@@ -1,0 +1,92 @@
+footer{
+    padding: 100px 0 37px 0;
+    background: rgba(89, 86, 232, 0.1);
+    .footer_logo{
+        p{
+            line-height: 27px;  
+            font-weight: 400; 
+            margin-top: 15px;
+            margin-bottom: 20px; 
+            width: 300px;
+            height: 81px;
+        }
+        .footer_social{
+            ul{ 
+                display: flex;
+                li{
+                    display: inline-block;
+                    a{
+                        width: 42px;
+                        height: 42px;
+                        background-color: #fff;
+                        text-align: center;
+                        line-height: 38px;
+                        border-radius: 50%;
+                        -webkit-border-radius: 50%;
+                        -moz-border-radius: 50%;
+                        -ms-border-radius: 50%;
+                        -o-border-radius: 50%;
+                        margin-right: 15px;
+                        transition: 0.5s;
+                        -webkit-transition: 0.5s;
+                        -moz-transition: 0.5s;
+                        -ms-transition: 0.5s;
+                        -o-transition: 0.5s;
+                        &:hover{
+                            transform: scale(1.1);
+                            -webkit-transform: scale(1.1);
+                            -moz-transform: scale(1.1);
+                            -ms-transform: scale(1.1);
+                            -o-transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_company{
+        .footer_head{
+            margin-bottom: 15px;
+            h6{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        ul{
+            li{
+                a{
+                    line-height: 35px;
+                    color: #5D5D5D;
+                    transition: 0.5s;
+                    -webkit-transition: 0.5s;
+                    -moz-transition: 0.5s;
+                    -ms-transition: 0.5s;
+                    -o-transition: 0.5s;
+                    &:hover{
+                        transform: translateX(10px);
+                        -webkit-transform: translateX(10px);
+                        -moz-transform: translateX(10px);
+                        -ms-transform: translateX(10px);
+                        -o-transform: translateX(10px);
+                    }
+                }
+            }
+        }
+    }
+    .footer_contact{
+        .footer_head{
+            margin-bottom: 15px;
+            h6{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        p{
+            margin-top: 10px;
+            width: 157px;
+            height: 54px;
+            color: #5D5D5D;
+            line-height: 27px;
+        }
+    }
+}
